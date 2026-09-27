@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ImaCoco</title>
+  <meta name="description" content="">
+  <meta name="theme-color" content="#eef0e7">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 中身（文章・画像・リンク）は content/ja.js で管理 -->
+  <script src="content/ja.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-ui="skip">本文へ移動</a>
+
+  <header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="wordmark" href="#imacoco">ImaCoco</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>
+        <span class="menu-toggle__label" data-ui="menuOpen">メニュー</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="ページ内">
+        <ul class="site-nav__list"></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- 1. ImaCocoの入口 -->
+    <section class="hero" id="imacoco" aria-labelledby="hero-title">
+      <div class="hero__media" data-slot="hero-media"></div>
+      <div class="hero__text">
+        <p class="eyebrow" data-slot="hero-eyebrow"></p>
+        <h1 class="hero__title" id="hero-title" data-slot="hero-title"></h1>
+        <div class="hero__lead" data-slot="hero-lead"></div>
+      </div>
+    </section>
+
+    <!-- 2. AI Grove（別作品） -->
+    <section class="grove" id="ai-grove" aria-labelledby="grove-title">
+      <div class="grove__inner">
+        <div class="grove__head">
+          <p class="status" data-slot="grove-status"></p>
+          <h2 class="grove__title" id="grove-title" data-slot="grove-title"></h2>
+          <p class="grove__subtitle" data-slot="grove-subtitle"></p>
+        </div>
+        <div class="grove__media" data-slot="grove-media"></div>
+        <div class="grove__text">
+          <p class="grove__lead" data-slot="grove-lead"></p>
+          <div class="grove__body" data-slot="grove-body"></div>
+          <dl class="motifs" data-slot="grove-motifs"></dl>
+          <p class="grove__note" data-slot="grove-note"></p>
+          <ul class="link-list link-list--dark" data-slot="grove-links"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ImaCocoの作品と行き先 -->
+    <section class="works" id="works" aria-labelledby="works-title">
+      <div class="works__head">
+        <h2 class="section-title" id="works-title" data-slot="works-title"></h2>
+        <p class="works__lead" data-slot="works-lead"></p>
+      </div>
+      <div class="works__list" data-slot="works-items"></div>
+      <p class="works__empty" data-slot="works-empty" hidden></p>
+      <ul class="link-list destinations" data-slot="works-destinations"></ul>
+    </section>
+  </main>
+
+  <!-- 4. フッター -->
+  <footer class="site-footer" id="about">
+    <div class="site-footer__inner">
+      <p class="operator">
+        <span class="operator__label" data-slot="footer-label"></span>
+        <span class="operator__name" data-slot="footer-operator"></span>
+        <span class="operator__note" data-slot="footer-note"></span>
+      </p>
+      <ul class="footer-links" data-slot="footer-links"></ul>
+      <p class="copyright" data-slot="footer-copyright"></p>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">このページの表示にはJavaScriptが必要です。</p></noscript>
+</body>
+</html>

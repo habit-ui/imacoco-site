@@ -1,0 +1,252 @@
+[
+  {
+    "name": "390px: 横はみ出しなし",
+    "ok": true,
+    "detail": "scrollWidth 390 / clientWidth 390"
+  },
+  {
+    "name": "390px: 画像の読込と代替テキスト",
+    "ok": true,
+    "detail": "0枚"
+  },
+  {
+    "name": "390px: 文字コントラスト4.5:1以上",
+    "ok": true,
+    "detail": "最小 6.37 (28箇所)"
+  },
+  {
+    "name": "390px: AI Groveに販売表現なし",
+    "ok": true,
+    "detail": "「制作中」表示あり: true"
+  },
+  {
+    "name": "390px: 使わない言葉が本文にない",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "390px: 仮リンクなし・ページ内リンク先が存在",
+    "ok": true,
+    "detail": "7件 "
+  },
+  {
+    "name": "390px: コンソールエラー・警告なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "390px: 存在しないファイルへの参照なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "768px: 横はみ出しなし",
+    "ok": true,
+    "detail": "scrollWidth 768 / clientWidth 768"
+  },
+  {
+    "name": "768px: 画像の読込と代替テキスト",
+    "ok": true,
+    "detail": "0枚"
+  },
+  {
+    "name": "768px: 文字コントラスト4.5:1以上",
+    "ok": true,
+    "detail": "最小 6.37 (32箇所)"
+  },
+  {
+    "name": "768px: AI Groveに販売表現なし",
+    "ok": true,
+    "detail": "「制作中」表示あり: true"
+  },
+  {
+    "name": "768px: 使わない言葉が本文にない",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "768px: 仮リンクなし・ページ内リンク先が存在",
+    "ok": true,
+    "detail": "7件 "
+  },
+  {
+    "name": "768px: コンソールエラー・警告なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "768px: 存在しないファイルへの参照なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px: 横はみ出しなし",
+    "ok": true,
+    "detail": "scrollWidth 1440 / clientWidth 1440"
+  },
+  {
+    "name": "1440px: 画像の読込と代替テキスト",
+    "ok": true,
+    "detail": "0枚"
+  },
+  {
+    "name": "1440px: 文字コントラスト4.5:1以上",
+    "ok": true,
+    "detail": "最小 6.37 (32箇所)"
+  },
+  {
+    "name": "1440px: AI Groveに販売表現なし",
+    "ok": true,
+    "detail": "「制作中」表示あり: true"
+  },
+  {
+    "name": "1440px: 使わない言葉が本文にない",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px: 仮リンクなし・ページ内リンク先が存在",
+    "ok": true,
+    "detail": "7件 "
+  },
+  {
+    "name": "1440px: コンソールエラー・警告なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "1440px: 存在しないファイルへの参照なし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "390px: 最初のTabで「本文へ移動」",
+    "ok": true,
+    "detail": "skip-link"
+  },
+  {
+    "name": "390px: メニューボタンにTabで到達しフォーカス表示",
+    "ok": true,
+    "detail": "solid 3px"
+  },
+  {
+    "name": "390px: Enterでメニューが開く",
+    "ok": true,
+    "detail": "aria-expanded=true"
+  },
+  {
+    "name": "390px: Escで閉じてボタンへフォーカスが戻る",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "390px: メニューからAI Groveへ移動しメニューが閉じる",
+    "ok": true,
+    "detail": "top=64"
+  },
+  {
+    "name": "1440px: 横並びナビ表示（メニューボタン非表示）",
+    "ok": true,
+    "detail": "4件"
+  },
+  {
+    "name": "外部リンクは新しいタブ（noopener）と読み上げ用の注記",
+    "ok": true,
+    "detail": "_blank|noopener|Office HABIT 公式サイト（新しいタブで開きます）↗"
+  },
+  {
+    "name": "部品テスト 390px: 横はみ出しなし",
+    "ok": true,
+    "detail": "scrollWidth 390 / clientWidth 390"
+  },
+  {
+    "name": "部品テスト 390px: 画像の読込と代替テキスト",
+    "ok": true,
+    "detail": "1枚"
+  },
+  {
+    "name": "部品テスト 390px: 長い見出しが折り返される",
+    "ok": true,
+    "detail": "6行"
+  },
+  {
+    "name": "部品テスト 390px: 「#」リンクは表示されない",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "部品テスト 390px: 作品があるとき空欄文は非表示",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "部品テスト 390px: 映像は無音で再生",
+    "ok": true,
+    "detail": "playing=true muted=true"
+  },
+  {
+    "name": "部品テスト 390px: 再生／一時停止ボタン（クリック・キーボード）",
+    "ok": true,
+    "detail": "paused=true pressed=false replay=true"
+  },
+  {
+    "name": "部品テスト 390px: コンソールエラーなし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "部品テスト 1440px: 横はみ出しなし",
+    "ok": true,
+    "detail": "scrollWidth 1440 / clientWidth 1440"
+  },
+  {
+    "name": "部品テスト 1440px: 画像の読込と代替テキスト",
+    "ok": true,
+    "detail": "1枚"
+  },
+  {
+    "name": "部品テスト 1440px: 長い見出しが折り返される",
+    "ok": true,
+    "detail": "6行"
+  },
+  {
+    "name": "部品テスト 1440px: 「#」リンクは表示されない",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "部品テスト 1440px: 作品があるとき空欄文は非表示",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "部品テスト 1440px: 映像は無音で再生",
+    "ok": true,
+    "detail": "playing=true muted=true"
+  },
+  {
+    "name": "部品テスト 1440px: 再生／一時停止ボタン（クリック・キーボード）",
+    "ok": true,
+    "detail": "paused=true pressed=false replay=true"
+  },
+  {
+    "name": "部品テスト 1440px: コンソールエラーなし",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "動きを減らす設定: 映像は自動再生せず静止画を表示",
+    "ok": true,
+    "detail": "poster=__test__/still.png"
+  },
+  {
+    "name": "動きを減らす設定: フェード演出・スムーズスクロールなし",
+    "ok": true,
+    "detail": "reveal=0 scroll=auto"
+  },
+  {
+    "name": "映像が壊れていても静止画で表示",
+    "ok": true,
+    "detail": ""
+  }
+]
