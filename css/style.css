@@ -509,12 +509,14 @@ main:focus { outline: none; }
 @media (max-width: 767px) {
   .work__media img,
   .work__media video {
-    width: 72%;
+    width: 66%;
+    max-width: none;
     max-height: none;
-    margin-inline: auto 0;
+    /* 画面の端まで寄せる */
+    margin-inline: auto calc(-1 * var(--gutter));
   }
   .work:nth-child(even) .work__media img,
-  .work:nth-child(even) .work__media video { margin-inline: 0 auto; }
+  .work:nth-child(even) .work__media video { margin-inline: calc(-1 * var(--gutter)) auto; }
 }
 .work__title {
   font-family: var(--serif);
