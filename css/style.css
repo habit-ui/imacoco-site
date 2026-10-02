@@ -504,6 +504,18 @@ main:focus { outline: none; }
   margin-inline: auto;
 }
 .work__media .placeholder { width: 100%; max-height: 80svh; }
+
+/* スマホ：画像を一回り小さくして片側へ寄せ、余白を残す（PCの構図に合わせる） */
+@media (max-width: 767px) {
+  .work__media img,
+  .work__media video {
+    width: 72%;
+    max-height: none;
+    margin-inline: auto 0;
+  }
+  .work:nth-child(even) .work__media img,
+  .work:nth-child(even) .work__media video { margin-inline: 0 auto; }
+}
 .work__title {
   font-family: var(--serif);
   font-weight: 500;
