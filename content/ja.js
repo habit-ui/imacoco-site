@@ -41,7 +41,14 @@ window.IMACOCO_CONTENT = {
      * media: { type: "video", src: "assets/hero.mp4", poster: "assets/hero-poster.jpg",
      *          alt: "…", width: 1080, height: 1350, autoplay: true }
      */
-    media: null
+    // 【仮画像】2026-10-02 みちこ決定。正式素材が決まったら差し替え
+    media: {
+      type: "image",
+      src: "assets/hero.jpg",
+      alt: "朝の光が差し込む針葉樹の森で、白い衣と光の粒をまとった長い白い髪の存在が、後ろ姿で森の奥を見ている。",
+      width: 1179,
+      height: 2126
+    }
   },
 
   // 2. AI Grove（ImaCoco Groveとは別の作品）

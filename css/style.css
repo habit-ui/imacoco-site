@@ -269,12 +269,12 @@ main:focus { outline: none; }
   margin: 0 auto;
 }
 
+/* 画像・映像は切り取らず全体を見せる（枠だけ高さを抑える） */
 .hero__media img,
-.hero__media video,
+.hero__media video { width: 100%; }
 .hero__media .placeholder {
   width: 100%;
   max-height: 72svh;
-  object-fit: cover;
 }
 
 .hero__text {
@@ -312,7 +312,12 @@ main:focus { outline: none; }
     padding: clamp(24px, 4vw, 56px) var(--gutter) clamp(64px, 8vw, 120px);
   }
   .hero__media img,
-  .hero__media video,
+  .hero__media video {
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100svh - var(--header-h) - 80px);
+    margin-inline: auto;
+  }
   .hero__media .placeholder { max-height: calc(100svh - var(--header-h) - 80px); }
   .hero__text { padding: 0; }
   .hero__title { font-size: clamp(2rem, 3.8vw, 3.4rem); }
