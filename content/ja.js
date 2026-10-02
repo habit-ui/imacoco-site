@@ -89,7 +89,20 @@ window.IMACOCO_CONTENT = {
      *   links: [{ label: "STORESで見る", url: "https://…" }]
      * }
      */
-    items: [],
+    items: [
+      // 【仮の作品】2026-10-02 追加。紹介文・リンクは未定のため未設定
+      {
+        title: "静かに描く時間",
+        media: {
+          type: "image",
+          src: "assets/works/quiet-drawing-time.jpg",
+          alt: "朝の光の中、苔むした石のテラスに白い衣の存在が座り、手元の紙に何かを描いている。遠くに霞んだ森と海が広がる。",
+          width: 1179,
+          height: 2138
+        },
+        links: []
+      }
+    ],
     // items が空のときだけ表示する文
     emptyNote: "作品の紹介は、準備ができたものから順にここへ加わります。",
     // 作品以外の公式の行き先（YouTube・Instagram など）{ label, note, url }
